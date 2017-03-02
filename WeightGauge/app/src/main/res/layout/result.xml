@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/output"
+        android:layout_x="17dp"
+        android:layout_y="143dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="再测一次"
+        android:id="@+id/test_again"
+        android:layout_x="116dp"
+        android:layout_y="307dp"
+        android:textSize="29sp" />
+</AbsoluteLayout>
